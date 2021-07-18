@@ -8,7 +8,7 @@
 </p>
 
 ## Screen
-<img width="280" alt="Screen1" src="https://user-images.githubusercontent.com/47946453/126071864-4a550074-5209-4012-9855-a4bd5ee49e3f.png">
+<img width="200" alt="Screen1" src="https://user-images.githubusercontent.com/47946453/126071864-4a550074-5209-4012-9855-a4bd5ee49e3f.png">
 
 ## Pages
 - Main Screen
