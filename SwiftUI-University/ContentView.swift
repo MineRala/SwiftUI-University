@@ -10,22 +10,30 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        VStack (alignment: .leading,spacing:10){
-            CircleImage()
-            Text("Anadolu University")
-                .font(.title)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                .foregroundColor(.red)
-            HStack {
-                Text("Yunusemre Kampüsü")
-                    .font(.body)
-                    .fontWeight(.medium)
+        ScrollView {
+            VStack {
+                MapView().frame(height : 450)
+                CircleImage()
+                    .offset(y:-100)
+                    .padding(.bottom, -100)
+                VStack (alignment: .leading,spacing:10){
+                    Text("Yasar University")
+                        .font(.title)
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(.red)
+                    HStack {
+                        Text("Selcuk Yasar Campus")
+                            .font(.body)
+                            .fontWeight(.medium)
+                        Spacer()
+                        Text("Izmir")
+                            .font(.subheadline)
+                            .fontWeight(.medium)
+                    }
+                }.padding()
                 Spacer()
-                Text("Eskişehir")
-                    .font(.subheadline)
-                    .fontWeight(.medium)
             }
-        }.padding()
+        }
         
     }
 }

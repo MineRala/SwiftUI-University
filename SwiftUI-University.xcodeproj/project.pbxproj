@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8458B5B26A45F6700ABF96B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8458B5A26A45F6700ABF96B /* MapView.swift */; };
 		E8D4794C26A1C06100D71B2D /* SwiftUI_UniversityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D4794B26A1C06100D71B2D /* SwiftUI_UniversityApp.swift */; };
 		E8D4794E26A1C06100D71B2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D4794D26A1C06100D71B2D /* ContentView.swift */; };
 		E8D4795026A1C06800D71B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D4794F26A1C06800D71B2D /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8458B5A26A45F6700ABF96B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		E8D4794826A1C06100D71B2D /* SwiftUI-University.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-University.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D4794B26A1C06100D71B2D /* SwiftUI_UniversityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UniversityApp.swift; sourceTree = "<group>"; };
 		E8D4794D26A1C06100D71B2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,12 +62,13 @@
 			children = (
 				E8D4794B26A1C06100D71B2D /* SwiftUI_UniversityApp.swift */,
 				E8D4794D26A1C06100D71B2D /* ContentView.swift */,
+				E8D4797F26A1CC9400D71B2D /* CircleImage.swift */,
+				E8458B5A26A45F6700ABF96B /* MapView.swift */,
 				E8D4794F26A1C06800D71B2D /* Assets.xcassets */,
 				E8D4795426A1C06800D71B2D /* Persistence.swift */,
 				E8D4795926A1C06800D71B2D /* Info.plist */,
 				E8D4795626A1C06800D71B2D /* SwiftUI_University.xcdatamodeld */,
 				E8D4795126A1C06800D71B2D /* Preview Content */,
-				E8D4797F26A1CC9400D71B2D /* CircleImage.swift */,
 			);
 			path = "SwiftUI-University";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D4795526A1C06800D71B2D /* Persistence.swift in Sources */,
+				E8458B5B26A45F6700ABF96B /* MapView.swift in Sources */,
 				E8D4794E26A1C06100D71B2D /* ContentView.swift in Sources */,
 				E8D4794C26A1C06100D71B2D /* SwiftUI_UniversityApp.swift in Sources */,
 				E8D4795826A1C06800D71B2D /* SwiftUI_University.xcdatamodeld in Sources */,
